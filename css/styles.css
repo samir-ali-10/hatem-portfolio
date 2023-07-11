@@ -161,6 +161,12 @@ input:focus {
     }
 }
 
+@media (max-width: 600px) {
+    .profile-modal {
+        max-width: 100%;
+    }
+}
+
 @keyframes fading {
     0% {
         transform: translateX(100%);
