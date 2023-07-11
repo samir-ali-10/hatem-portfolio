@@ -205,6 +205,13 @@ input:focus {
 .contact-modal .close-contact-modal i {
     font-size: 12px;
 }
+
+@media (max-width: 600px) {
+    .contact-modal {
+        max-width: 100%;
+    }
+}
+
 @keyframes fading2 {
     0% {
         transform: translateX(-100%);
@@ -250,6 +257,12 @@ input:focus {
 }
 .projects-modal .close-projects-modal i {
     font-size: 12px;
+}
+
+@media (max-width: 600px) {
+    .projects-modal {
+        max-width: 100%;
+    }
 }
 
 @keyframes fading3 {

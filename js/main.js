@@ -27,6 +27,11 @@ let closeContactModal = document.querySelector(".close-contact-modal");
 contactBtn.addEventListener("click", () => {
     modalContact.style.display = "block"
 })
+
+contactBtn.addEventListener("click", () => {
+    modalContact.showModal();
+})
+
 closeContactModal.addEventListener("click", () => {
     modalContact.close();
 })
